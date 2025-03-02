@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#F4A460">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_twitter_searches"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#D2691E"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/editTextSearch"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/enter_search"
+        android:background="#F0F0F0"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:inputType="text"
+        android:autofillHints="username"
+        android:maxWidth="480dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTag"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:hint="@string/tag_query"
+            android:background="#F0F0F0"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:inputType="text"
+            android:autofillHints="username"
+            android:maxWidth="488dp" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:text="@string/save"
+            android:background="#8B4513"
+            android:textColor="#FFFFFF"
+            android:maxWidth="320dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tagged_searches"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/list_of_saved_searches">
+
+        <LinearLayout
+            android:id="@+id/tagContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/clear_tags"
+        android:background="#8B4513"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

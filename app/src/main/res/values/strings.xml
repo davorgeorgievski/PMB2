@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DR1</string>
+    <string name="favorite_twitter_searches">Favorite Twitter Searches</string>
+    <string name="enter_search">Enter Twitter search query here</string>
+    <string name="tag_query">Tag your query</string>
+    <string name="save">Save</string>
+    <string name="tagged_searches">Tagged Searches</string>
+    <string name="list_of_saved_searches">List of saved searches</string>
+    <string name="clear_tags">Clear Tags</string>
+</resources>
