@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">DR1</string>
+
     <string name="favorite_twitter_searches">Favorite Twitter Searches</string>
     <string name="enter_search">Enter Twitter search query here</string>
     <string name="tag_query">Tag your query</string>
@@ -7,4 +8,16 @@
     <string name="tagged_searches">Tagged Searches</string>
     <string name="list_of_saved_searches">List of saved searches</string>
     <string name="clear_tags">Clear Tags</string>
+
+    <string name="dictionary_title">Речник: Македонски - Англиски</string>
+    <string name="search_hint">Внеси збор (МК или EN)</string>
+    <string name="search_button">Пребарај</string>
+    <string name="search_result">Резултат</string>
+    <string name="mk_word_hint">Внеси збор на македонски</string>
+    <string name="en_word_hint">Внеси збор на англиски</string>
+    <string name="add_word_button">Додади во речник</string>
+
+    <string name="title_dictionary_search">Dictionary Search</string>
+    <string name="hint_enter_word">Enter a word (MK or EN)</string>
+    <string name="btn_search">Search</string>
 </resources>

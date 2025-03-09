@@ -1,0 +1,7 @@
+sample, primer
+morning, utro
+hello, zdravo
+trousers, pantoloni
+father, tatko
+desk, masa
+chair, stolica

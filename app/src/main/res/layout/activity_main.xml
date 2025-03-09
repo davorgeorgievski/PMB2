@@ -27,8 +27,7 @@
         android:textSize="16sp"
         android:padding="8dp"
         android:inputType="text"
-        android:autofillHints="username"
-        android:maxWidth="480dp"/>
+        android:autofillHints="username"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -46,8 +45,7 @@
             android:textSize="16sp"
             android:padding="8dp"
             android:inputType="text"
-            android:autofillHints="username"
-            android:maxWidth="488dp" />
+            android:autofillHints="name"/>
 
         <Button
             android:id="@+id/buttonSave"
@@ -55,8 +53,7 @@
             android:layout_height="52dp"
             android:text="@string/save"
             android:background="#8B4513"
-            android:textColor="#FFFFFF"
-            android:maxWidth="320dp"/>
+            android:textColor="#FFFFFF"/>
     </LinearLayout>
 
     <TextView
@@ -69,8 +66,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="200dp"
         android:background="#FFFFFF"
         android:contentDescription="@string/list_of_saved_searches">
 
@@ -90,4 +86,41 @@
         android:background="#8B4513"
         android:textColor="#FFFFFF"
         android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_dictionary_search"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <EditText
+        android:id="@+id/dictionarySearch"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/hint_enter_word"
+        android:background="#F0F0F0"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:inputType="text"
+        android:autofillHints="username"/>
+
+    <Button
+        android:id="@+id/buttonDictionarySearch"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/btn_search"
+        android:background="#8B4513"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/dictionaryResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:text=""/>
 </LinearLayout>
